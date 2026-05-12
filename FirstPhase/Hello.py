@@ -1,4 +1,7 @@
+# FirstPhase / Day 1
+# Простой скрипт-приветствие
+
+# === Приветствие ===
 print("Здравствуй! Представься:")
-name = input()
-name = name + "!"
-print("Привет,", name, "Сегодня ты начнешь путь в Python")
+name = input().strip()
+print(f"Привет, {name}! Сегодня ты начнешь путь в Python")
